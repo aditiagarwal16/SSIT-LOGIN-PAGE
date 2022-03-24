@@ -1,0 +1,51 @@
+body {
+    background-image: url("SSIT_IMAGE.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+form {
+    width: 90%;
+}
+
+img {
+    margin-left: 13%;
+    margin-top: 10px;
+    height: 300px;
+}
+
+div {
+   position: absolute;
+   left: 15%;
+   border-style: solid;
+   border-color: #FF9F45;
+   border-radius: 10%;
+   display: flex;
+   text-align: center;
+   height: fit-content;
+   width:fit-content;
+   padding: 20px;
+}
+input {
+    height: 30px;
+    border-radius: 10px;
+    width: auto;
+}
+
+label {
+    color: white;
+    font-size: 26px;
+}
+footer {
+    color: white;
+    margin-left: 2%;
+    position: absolute;
+    bottom: 0;
+}
+
+#login {
+    width: 60%;
+    align-items: center;
+    background-color: pink;
+}
